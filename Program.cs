@@ -19,7 +19,7 @@ using System.Reflection;
 using System.Text;
 using System.Xml.Linq;
 
-namespace Microsoft.DotNet.Tools.ResGen
+namespace Microsoft.DotNet.Tools.Resgen
 {
     /// <summary>
     /// Class Program.
