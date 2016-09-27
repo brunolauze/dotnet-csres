@@ -79,7 +79,7 @@ namespace Microsoft.DotNet.Tools.Resgen
         /// <returns>System.String.</returns>
         private static string GetTemplate()
         {
-            var stream = typeof(Program).GetTypeInfo().Assembly.GetManifestResourceStream("dotnet-csres.SR.txt");
+            var stream = typeof(Program).GetTypeInfo().Assembly.GetManifestResourceStream("Microsoft.DotNet.Tools.Resgen.SR.txt");
             using (var reader = new StreamReader(stream, Encoding.UTF8))
             {
                 return reader.ReadToEnd();
